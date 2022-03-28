@@ -1,0 +1,12 @@
+fileignoreconfig:
+- filename: .last_build_id
+  checksum: bf4dfe58bdef4c7fd850611402330db865df45011be9c321160791cfda16deb0
+- filename: flutter_service_worker.js
+  checksum: 424f65fc688ffad84f6f409a4207e065a2128c0aec30d3df7561268c21b4bff7
+- filename: main.dart.js
+  checksum: 8f9f7b936b50457869920e3e482a489a9af97dbdcfda05f87af2bba8ec9ecf6f
+- filename: canvaskit/canvaskit.js
+  checksum: eeeaa7338f5e501bea8e81e24a8927518a1307b19db013aee67165d1f55505d7
+- filename: canvaskit/profiling/canvaskit.js
+  checksum: 928946fbdd8ddc3297039b24bd11a0b5d7cab37aab41a53761d836ceba4f2edf
+version: ""

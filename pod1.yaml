@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: gpa-calc
+spec:
+  selector:
+    matchLabels:
+      app: gpa-calc
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        app: gpa-calc
+    spec:
+      containers:
+      - name: gpa-calc
+        image: balasurajgajulatw/gpa-calc
+        ports:
+        - containerPort: 80
+      imagePullSecrets:
+      - name: regcred
